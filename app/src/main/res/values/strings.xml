@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">GasHol</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Splash Screen __________________________________________________________________________-->
+    <string name="tagLine">rekomendasi tepat untuk perjalanan anda</string>
+
+    <!-- Description Strings -->
+    <string name="desc_splashscreen">Splash Screen Logo</string>
+
+    <!-- OnBoarding Screens _____________________________________________________________________-->
+    <string name="text_LandingPage1">GAS HOLIDAY YUK!!!</string>
+    <string name="text_LandingPage2">Cari destinasi liburan terbaik\nyang sesuai dengan anda</string>
+    <string name="text_LandingPage3">Cari dulu yuk di gasHol</string>
+    <string name="text_SwipeToContinue"><i>Geser untuk lanjut >>>   </i></string>
+    <string name="text_Clickable_EndOnBoarding">Cari dulu yuk di gasHol</string>
+
+    <!-- Description Strings -->
+    <string name="desc_BackgroundOverlay">Background Overlay</string>
+    <string name="desc_iconGasHolRevamp">Icon GasHol Revamp</string>
+
+    <!-- Login and Registration ________________________________________________________________ -->
+    <string name="welcome_to_gashol">Selamat datang di gasHol,\nrekomendasi tepat untuk perjalanan anda</string>
+
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintMobileNum">Mobile Number</string>
+    <string name="hintConfirmPassword">Re-type Password</string>
+
+    <string name="textView_LoginTitle">LOGIN</string>
+    <string name="textView_SignUpTitle">SIGN-UP</string>
+    <string name="textView_ClickableSignUp">Belum punya akun gasHol? Klik tulisan ini!</string>
+    <string name="textView_Clickable_Login">Sudah punya akun? Klik tulisan ini!</string>
+    <string name="desc_IconGasHol">Icon gasHol</string>
+    <string name="hintUserName">User Name</string>
+
+    <!-- Description Strings ___________________________________________________________________ -->
+
+</resources>

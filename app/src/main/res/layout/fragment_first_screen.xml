@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding.screens.FirstScreenFragment">
+
+    <ImageView
+        android:id="@+id/imgView_BgOverlay"
+        android:layout_width="850dp"
+        android:layout_height="0dp"
+        android:alpha="0.2"
+        android:contentDescription="@string/desc_BackgroundOverlay"
+        android:foregroundTintMode="src_over"
+        android:src="@drawable/overlay_bg_1"
+        android:tintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#B3FFF07C" />
+
+    <ImageView
+        android:id="@+id/imgView_iconGasHolRevamp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:contentDescription="@string/desc_iconGasHolRevamp"
+        android:src="@drawable/icon_gashol_new_splashscreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/textView_LandingPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_LandingPage1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgView_BgOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <ImageView
+        android:id="@+id/leftSlidingDot"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/shape_round_1"
+        app:layout_constraintBottom_toBottomOf="@+id/middleSlidingDot"
+        app:layout_constraintEnd_toStartOf="@+id/middleSlidingDot"
+        app:layout_constraintTop_toTopOf="@+id/middleSlidingDot"
+        app:tint="#000000" />
+
+    <ImageView
+        android:id="@+id/middleSlidingDot"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="125dp"
+        android:src="@drawable/shape_round_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="#66000000" />
+
+    <ImageView
+        android:id="@+id/lastSlidingDot"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/shape_round_1"
+        app:layout_constraintBottom_toBottomOf="@+id/middleSlidingDot"
+        app:layout_constraintStart_toEndOf="@+id/middleSlidingDot"
+        app:layout_constraintTop_toTopOf="@+id/middleSlidingDot"
+        app:tint="#66000000" />
+
+    <TextView
+        android:id="@+id/textVIew_SwipeToContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/text_SwipeToContinue"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
